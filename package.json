@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "csv-parser": "^3.0.0",
+    "fastify": "^3.29.5",
+    "fastify-cors": "^6.1.0",
+    "mongoose": "^7.5.3",
+    "node": "^18.18.0"
+  },
+  "name": "city-population-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate-csv-to-db": "node scripts/migrate_csv_to_db"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
